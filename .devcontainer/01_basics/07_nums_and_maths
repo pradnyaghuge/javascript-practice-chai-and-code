@@ -17,5 +17,31 @@ const hundred =10000000
 // console.log(hundred.toLocaleString());//usa
 // console.log(hundred.toLocaleString("en-IN"));//india
 
+//++++++++++++++++++MATHS+++++++++++++++++
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(0.5));
+// console.log(Math.round(5.8));
+// console.log(Math.ceil(8.5));
+// console.log(Math.floor(4.5));
+// console.log(Math.sqrt(25));
+// console.log(Math.min(3,6,4,2,));
+// console.log(Math.max(3,6,4,2,));
+
+// console.log(1+Math.random()*6);
+
+// console.log(Math.round(Math.random()*6));
+// console.log((Math.random()*10)+1);
+
+const min= 10;
+const max=20;
 
 
+// console.log(Math.floor((Math.random()*(max-min+1)+min))+min);
+
+// console.log(Math.random()*10+1);
+
+// console.log(Math.random()*(max-min+1)+min);
+
+
+console.log(Math.floor(Math.random()*(max-min+1)+min));
