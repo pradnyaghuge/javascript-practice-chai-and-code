@@ -1,0 +1,21 @@
+
+
+// const score=400
+// console.log(score)
+
+const newNumber=new Number(100)
+// console.log(newNumber)
+// console.log(newNumber.toString())
+// console.log(typeof newNumber)
+// console.log(newNumber.toString().length)
+// console.log(newNumber.toFixed(2));
+
+// const otherNumber=45.76767
+// console.log(otherNumber.toPrecision(5));
+
+const hundred =10000000
+// console.log(hundred.toLocaleString());//usa
+// console.log(hundred.toLocaleString("en-IN"));//india
+
+
+
