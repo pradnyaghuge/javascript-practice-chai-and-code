@@ -75,7 +75,7 @@ const {location:place}=course //  object destructuring concept
 
 // {
 //     "name":"pradnya",
-//     "courceName":"javascript",
+//     "courceName":"javascript",  //JSON format
 //     "price":"free"
 
 
