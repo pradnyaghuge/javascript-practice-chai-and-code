@@ -21,10 +21,36 @@ function add(number1,number2){
     // return result;//  nothing will print after result, return is last keyword for any function
     return number1+number2
 }
-let result=add(7,9)
-console.log("result is: "+result);
+// let result=add(7,9)
+// console.log("result is: "+result);
 // add(7,"9") //o/p: 79
 
 // const result=add(7,9)
+
+
+function loginUserMessage(username){
+    if(username===undefined){
+    console.log("please enter valid use name");
+    return
+    }
+    return `${username} just logged in`
+}
+ 
+// console.log(loginUserMessage());
+
+
+// improved code
+function loginUserMessage(username){
+    if(!username){
+    console.log("please enter valid user name");
+    return
+    }
+    return `${username} just logged in`
+}
+ 
+console.log(loginUserMessage("Pradnya"));
+
+
+
 
 
