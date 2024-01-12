@@ -58,7 +58,9 @@ function loginUserMessage(username="kanu"){  //default print this value otherwis
         return `${username} just logged in`
     }
      
-    console.log(loginUserMessage());
+    // console.log(loginUserMessage());
+
+
 
 
 
