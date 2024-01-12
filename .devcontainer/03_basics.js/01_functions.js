@@ -48,7 +48,19 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
  
-console.log(loginUserMessage("Pradnya"));
+// console.log(loginUserMessage("Pradnya"));
+
+function loginUserMessage(username="kanu"){  //default print this value otherwise new value will ovewrite while calling a function
+    if(!username){
+        console.log("please enter valid user name");
+        return
+        }
+        return `${username} just logged in`
+    }
+     
+    console.log(loginUserMessage());
+
+
 
 
 
