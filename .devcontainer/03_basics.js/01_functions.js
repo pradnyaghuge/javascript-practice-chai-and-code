@@ -60,6 +60,54 @@ function loginUserMessage(username="kanu"){  //default print this value otherwis
      
     // console.log(loginUserMessage());
 
+    function calculateCartPrice(...num1){
+      return num1  
+    }
+
+    // console.log(calculateCartPrice("200,400,500,7000"));
+
+
+    const user={
+        username:"Pradnya R. Ghuge",
+        price:588
+    }
+
+    // function handleObject(anyobject){
+    //     console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    // }
+
+    // console.log(user);// compulsary object hi pass krna hai
+
+
+//alternate code
+
+// passing object to function
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject({
+//     username: "kanu",
+//     price:878
+// });
+
+
+//passing array to a function
+
+const myNewArray=[450,242,454,23244,]
+
+function returnSecondValue(getNewArray){
+    return getNewArray[1]
+}
+console.log(returnSecondValue(myNewArray));//one method
+console.log(returnSecondValue([500,63,765,878]));// another method
+
+
+
+    
+
+
 
 
 
